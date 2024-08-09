@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import { useState, useEffect } from "react";
 import {
@@ -6,6 +6,7 @@ import {
   HarmCategory,
   HarmBlockThreshold,
 } from "@google/generative-ai";
+import { ModeToggle } from "@/components/theme-mode-toggle";
 
 export default function Home() {
   const [messages, setMessages] = useState([]); // Stores the chat messages
@@ -133,22 +134,11 @@ export default function Home() {
 
   return (
     <div className={`flex flex-col h-screen p-4 ${primary}`}>
+      <div className="absolute right-4">
+        <ModeToggle />
+      </div>
       <div className="flex justify-between items-center mb-4">
         <h1 className={`text-2xl font-bold ${text}`}>AI Customer Assistant</h1>
-        <div className="flex space-x-2">
-          <label htmlFor="theme" className={`text-sm ${text}`}>
-            Theme:
-          </label>
-          <select
-            id="theme"
-            value={theme}
-            onChange={handleThemeChange}
-            className={`p-1 rounded-md border ${text}`}
-          >
-            <option value="light">Light</option>
-            <option value="dark">Dark</option>
-          </select>
-        </div>
       </div>
       <div className={`flex-1 overflow-y-auto ${secondary} rounded-md p-2`}>
         {messages.map((msg, index) => (
