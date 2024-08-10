@@ -179,34 +179,43 @@ import { Card } from "@/components/ui/card";
 //   );
 // }
 
+
 import {
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+    CardContent,
+    CardDescription,
+    CardFooter,
+    CardHeader,
+    CardTitle,
+  } from "@/components/ui/card"
+  import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+  import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+  import { useRouter } from 'next/navigation';
+  
+  export default function Landing(){
 
-export default function Landing(){
-  return(
-    <main className="flex justify-center items-center min-h-screen " style={{ backgroundColor: '#0c4a6e' }}>
-      <Card className="w-full max-w-sm p-6 border border-black">
-        <CardHeader className="text-center">
-          <CardTitle>Instant Knowledge</CardTitle>
-        </CardHeader>
-        <CardContent className="flex justify-center items-center text-center">
-          <p>Meet Langchain Assistant, your AI companion for quick,accurate answers on the spot about building applications concenring LLM's,managing workflows and much more...</p>
-        </CardContent>
-        <Button variant="outline" className="w-full">
-        Start Chatting 
-        <FontAwesomeIcon icon={faArrowRight} className="ml-2" />
-      </Button>
-      </Card>
+    const router = useRouter();
 
-    </main>
+  const handleStartChatting = () => {
+    router.push('/landing'); // Ensure this path matches the actual location of pages.tsx
+  };
 
-  );
-
-}
+    return(
+      <main className="flex justify-center items-center min-h-screen " style={{ backgroundColor: '#0c4a6e' }}>
+        <Card className="w-full max-w-sm p-6 border border-black">
+          <CardHeader className="text-center">
+            <CardTitle>Instant Knowledge</CardTitle>
+          </CardHeader>
+          <CardContent className="flex justify-center items-center text-center">
+            <p>Meet Langchain Assistant, your AI companion for quick,accurate answers on the spot about building applications concenring LLM's,managing workflows and much more...</p>
+          </CardContent>
+          <Button variant="outline" className="w-full" onClick={handleStartChatting}>
+          Start Chatting 
+          <FontAwesomeIcon icon={faArrowRight} className="ml-2" />
+        </Button>
+        </Card>
+  
+      </main>
+  
+    );
+  
+  }
