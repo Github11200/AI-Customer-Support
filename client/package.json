@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@google/generative-ai": "^0.16.0",
+    "@heroicons/react": "^2.1.5",
     "@huggingface/transformers": "3.0.0-alpha.3",
     "@langchain/cohere": "^0.2.2",
     "@langchain/community": "^0.2.25",
