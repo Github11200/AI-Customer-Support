@@ -35,4 +35,3 @@
 - **Dev Tewari** [GitHub] "(to be added)
 
 For any questions or support, don't hesitate to reach out. We're here to assist!
-
