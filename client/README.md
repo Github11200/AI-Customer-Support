@@ -32,7 +32,7 @@
 - **Patel Jinay** [GitHub](https://github.com/Github11200)
 - **Abdelghani Bensaïh** [GitHub](https://github.com/yourusername)
 - **Nebila Wako** [GitHub](https://github.com/nebilawako)
-- **Dev Tewari** [GitHub] (to be added)
+- **Dev Tewari** [GitHub] "(to be added)
 
 For any questions or support, don't hesitate to reach out. We're here to assist!
 
