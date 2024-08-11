@@ -4,21 +4,11 @@ import { Button } from "@/components/ui/button";
 import { useRouter } from 'next/navigation';
 import { ArrowLeftIcon } from '@heroicons/react/24/outline';
 
-// export default function ChatComponent() {
-//   return (
-//     <div className="p-4">
-//       <Textarea
-//         placeholder="Type your message here..."
-//         className="w-full h-24 resize-none"
-//       />
-//     </div>
-//   );
-// }
 export default function ChatComponent() {
     const router = useRouter();
   
     const handleBack = () => {
-      router.push('/');  // Navigates back to the home page
+      router.push('/');  
     };
   
     return (

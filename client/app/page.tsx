@@ -207,7 +207,7 @@ import {
             <CardTitle>Instant Knowledge</CardTitle>
           </CardHeader>
           <CardContent className="flex justify-center items-center text-center">
-            <p>Meet Langchain Assistant, your AI companion for quick,accurate answers on the spot about building applications concenring LLM's,managing workflows and much more...</p>
+            <p>Meet <strong>Langchain Assistant</strong>, your AI companion for quick, accurate answers on the spot about building applications concenring LLM's,managing workflows and much more...</p>
           </CardContent>
           <Button variant="outline" className="w-full" onClick={handleStartChatting}>
           Start Chatting 
