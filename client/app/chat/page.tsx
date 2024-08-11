@@ -1,5 +1,5 @@
 "use client";
-import { Textarea } from "@/components/ui/textarea"; // Adjust the import path as needed
+import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
 import { useRouter } from 'next/navigation';
 import { ArrowLeftIcon } from '@heroicons/react/24/outline';
@@ -22,7 +22,7 @@ export default function ChatComponent() {
   
         {/* Main chat area */}
         <div className="flex-grow overflow-y-auto mb-4">
-          {/* This is where your chat messages will appear */}
+          
         </div>
   
         {/* Input area at the bottom */}
