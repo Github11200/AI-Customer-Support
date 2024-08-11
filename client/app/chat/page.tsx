@@ -14,11 +14,16 @@ export default function ChatComponent() {
   
     return (
       <div className="flex flex-col h-screen p-4 sm:p-6">
-        {/* Back Arrow Button */}
-        <div className="mb-4">
-          <Button onClick={handleBack} variant="ghost">
+        {/* Header and Back Arrow Container */}
+        <div className="flex items-center mb-4">
+          <Button onClick={handleBack} variant="ghost" className="mr-4">
             <ArrowLeftIcon className="h-6 w-6" />
           </Button>
+          <div className="flex-grow flex justify-center">
+            <h1 className="text-xl sm:text-2xl font-bold text-gray-900">
+              LangChain Assistant
+            </h1>
+          </div>
         </div>
   
         {/* Main chat area */}
@@ -39,3 +44,4 @@ export default function ChatComponent() {
       </div>
     );
 }
+
