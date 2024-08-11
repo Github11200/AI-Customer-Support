@@ -3,7 +3,9 @@
 ## 🚀 Introduction
 **LangChain Assistant** is a smart chat application crafted with **Next.js** and the **Retrieval Augmented Generation (RAG) framework**. Designed for developers and tech enthusiasts, it provides quick answers to questions about building applications, connecting large language models (LLMs), managing workflows, and more, with a special focus on LangChain documentation. Responses are powered by **Google Generative AI**.
 
-![Preview](path/to/preview/image.png) (to be added)
+![picture](https://github.com/user-attachments/assets/721b3638-29d2-4c0d-9070-431b69f0306d)
+
+
 
 ## 🛠️ Skills Used
 - **Next.js**: Framework for building the application.
