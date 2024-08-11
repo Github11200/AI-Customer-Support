@@ -190,13 +190,14 @@ import {
   import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
   import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
   import { useRouter } from 'next/navigation';
+  import { useEffect } from 'react';
   
   export default function Landing(){
 
     const router = useRouter();
 
   const handleStartChatting = () => {
-    router.push('/landing'); // Ensure this path matches the actual location of pages.tsx
+    router.push('/chat'); // Ensure this path matches the actual location of pages.tsx
   };
 
     return(
