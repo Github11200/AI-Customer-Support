@@ -31,7 +31,7 @@ export default function ChatComponent() {
             placeholder="Type your message here..."
             className="flex-grow h-16 resize-none"
           />
-          <Button className="ml-4 h-16">
+          <Button className="ml-4 h-16 bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg shadow-lg hover:bg-blue-700 transition duration-300">
             Send
           </Button>
         </div>
