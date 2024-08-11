@@ -1,12 +1,22 @@
 from langchain_community.chat_models import ChatOpenAI
 from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_community.vectorstores import Pinecone
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate
+from langchain_core.runnables import RunnableParallel, RunnablePassthrough, RunnableLambda
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_community.document_loaders import HuggingFaceDatasetLoader, YoutubeLoader
 from langchain_core.runnables import RunnableParallel, RunnablePassthrough
 from langchain_community.chat_models import ChatOpenAI
 from langchain_pinecone import PineconeVectorStore
+from langchain.vectorstores import Pinecone
+from sklearn.metrics.pairwise import cosine_similarity
 from dotenv import load_dotenv
+from openai import OpenAI
+import tiktoken
+import numpy as np
 import os
+from langsmith.schemas import FeedbackIngestToken
 
 load_dotenv()
 
