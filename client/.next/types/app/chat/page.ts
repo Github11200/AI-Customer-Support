@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 // File: /Users/nebilawako/AI-Customer-Support/client/app/chat/page.tsx
-=======
-// File: /home/user/code/projects/AI-Customer-Support/client/app/chat/page.tsx
->>>>>>> c01fbb3 (changes)
 import * as entry from '../../../../app/chat/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
