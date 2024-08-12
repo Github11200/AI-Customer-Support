@@ -373,6 +373,8 @@ export default function ChatComponent() {
     ];
 
     useEffect(() => {
+
+      
         const initChat = async () => {
             try {
                 const newChat = await genAI
@@ -429,6 +431,8 @@ export default function ChatComponent() {
     };
 
     useEffect(() => {
+
+
         if (darkMode) {
             document.documentElement.classList.add('dark');
         } else {
@@ -447,6 +451,8 @@ export default function ChatComponent() {
                         LangChain Assistant
                     </h1>
                 </div>
+
+
                 <Button onClick={toggleDarkMode} variant="ghost" className="p-2 ml-4 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-full">
                     {darkMode ? (
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="h-6 w-6">
@@ -461,6 +467,9 @@ export default function ChatComponent() {
             </div>
 
             <div className="flex-grow overflow-y-auto mb-6 p-4 bg-white dark:bg-gray-900 rounded-lg shadow-inner">
+            <div className="bg-blue-600 dark:bg-blue-500 text-white dark:text-gray-100 rounded-lg p-3 max-w-fit self-start">
+    <p>Hello! I’m LangChain Assistant, here to help you with any questions you have.</p>
+</div>
                 <div className="flex flex-col space-y-4">
                     {messages.map((msg, index) => (
                         <div
