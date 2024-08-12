@@ -8,8 +8,6 @@ import {
     CardHeader,
     CardTitle,
   } from "@/components/ui/card"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
   
 
