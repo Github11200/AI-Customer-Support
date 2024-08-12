@@ -8,7 +8,9 @@ const generativeAI = new GoogleGenerativeAI(
 
 const model = generativeAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
-export default async function getAnswer(prompt: string) {
+export default async function getResponse(prompt: string) {
+  console.log("Hi");
+
   const result = await model.generateContent(prompt);
   const response = await result.response;
   const text = response.text();
