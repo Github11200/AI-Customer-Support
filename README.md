@@ -9,10 +9,10 @@
 
 ## 🛠️ Skills Used
 - **Next.js**: Framework for building the application.
-- **Python**: Backend scripting and logic.
+- **Python**: Backend scripting for RAG implementation.
 - **TypeScript**: Type-safe coding for the frontend.
 - **Tailwind CSS & ShadCN**: Custom styling and UI components.
-- **RAG Framework**: Enhancing AI capabilities with relevant data retrieval.
+- **RAG Framework**: Enhancing AI capabilities with relevant data retrieval. (to be added...)
 - **LangChain**: Core library for handling LLM interactions.
 - **AWS Deployment**: Hosting and scaling on the cloud.
 - **Google Generative AI**: For generating intelligent responses.
@@ -34,6 +34,6 @@
 - **Patel Jinay** [GitHub](https://github.com/Github11200)
 - **Abdelghani Bensaïh** [GitHub](https://github.com/yourusername)
 - **Nebila Wako** [GitHub](https://github.com/nebilawako)
-- **Dev Tewari** [GitHub] " (to be added)
+- **Dev Tewari** [LinkedIn](https://www.linkedin.com/in/dev-t-99a047209/)
 
 For any questions or support, don't hesitate to reach out. We're here to assist!
