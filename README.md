@@ -34,6 +34,6 @@
 - **Patel Jinay** [GitHub](https://github.com/Github11200)
 - **Abdelghani Bensaïh** [GitHub](https://github.com/yourusername)
 - **Nebila Wako** [GitHub](https://github.com/nebilawako)
-- **Dev Tewari** [LinkedIn](https://www.linkedin.com/in/dev-t-99a047209/)
+- **Dev Tiwari** [LinkedIn](https://www.linkedin.com/in/dev-t-99a047209/)
 
 For any questions or support, don't hesitate to reach out. We're here to assist!
